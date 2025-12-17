@@ -38,6 +38,18 @@
       ::-webkit-scrollbar-track { background: #161B22; }
       ::-webkit-scrollbar-thumb { background: #30363D; border-radius: 4px; }
       ::-webkit-scrollbar-thumb:hover { background: #768390; }
+
+      /* --- ΔΙΟΡΘΩΣΗ ΓΙΑ ΤΑ ΕΙΚΟΝΙΔΙΑ ΗΜΕΡΟΛΟΓΙΟΥ --- */
+      /* Αυτό αντιστρέφει το χρώμα από μαύρο σε άσπρο */
+      ::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+        cursor: pointer;
+        opacity: 0.6;
+        transition: 0.2s;
+      }
+      ::-webkit-calendar-picker-indicator:hover {
+        opacity: 1;
+      }
     </style>
     <script type="importmap">
 {
