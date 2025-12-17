@@ -1,0 +1,5 @@
+{
+  "name": "InvoiceFlow",
+  "description": "A modern, efficient invoice entry and management application with duplicate detection.",
+  "requestFramePermissions": []
+}
